@@ -356,15 +356,15 @@
 
 /* line 17, ../sass/screen.scss */
 html, body {
-  /*min-width: 1170px; */
-  background: url(background4.png);
+  min-width: 1170px;
+  background: url(background5.png);
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
+  */
   padding: 0px;
-  margin: 0px; */
+  margin: 0px;
   background-repeat: no-repeat;
   height: 7125px;
 }
