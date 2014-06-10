@@ -356,13 +356,17 @@
 
 /* line 17, ../sass/screen.scss */
 html, body {
-  min-width: 1170px;
-  background: url(background.jpg);
-  background-size:cover;
-  height:auto;
-  width: 100%;
+  /*min-width: 1170px; */
+  background: url(background4.png);
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
   padding: 0px;
-  margin: 0px;
+  margin: 0px; */
+  background-repeat: no-repeat;
+  height: 7125px;
 }
 
 /* line 25, ../sass/screen.scss */
@@ -474,7 +478,7 @@ body {
   -ms-transform: translateZ(0px);
   -o-transform: translateZ(0px);
   transform: translateZ(0px);
-  background-image: url("http://aquatilis.tv/wp-content/themes/twentyfourteen/images/finalBG.jpg");
+  background-image: url("takeaction-large.png");
   background-repeat: no-repeat;
   background-position: 50% 100%;
   /* position: absolute; */
@@ -1114,7 +1118,8 @@ hr {
 .second {
   overflow: visible !important;
   position: relative;
-  height: 920px;
+  height: 1050px;
+  top: 1000px;
 }
 /* line 662, ../sass/screen.scss */
 .second .chapter {
@@ -1125,10 +1130,13 @@ hr {
 .second .big-jellyfish {
   pointer-events: none;
   position: absolute;
-  right: -200px;
+  /* right: -200px; 
   height: 673px;
-  width: 888px;
-  top: -60px;
+  width: 888px; */
+  right: 5px; 
+  height: 411px;
+  width: 700px;
+  top: 60px;
   z-index: 3;
 }
 /* line 677, ../sass/screen.scss */
