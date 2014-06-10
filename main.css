@@ -357,7 +357,7 @@
 /* line 17, ../sass/screen.scss */
 html, body {
   min-width: 1170px;
-  background: url(background5.png);
+  background: url(images/backgroundnew.png);
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1027,7 +1027,7 @@ hr {
 }
 /* line 574, ../sass/screen.scss */
 .home p {
-  font-family: 'BrandonGrotesque', Arial, Helvetica, sans-serif;
+  font-family: 'AdobeCaslon', serif;
   position: relative;
   line-height: 27px;
   max-width: 655px;
@@ -4166,4 +4166,19 @@ src: url(BrandonGrotesque/Brandon_reg.otf);
 @font-face {
 font-family: BrandonGrotesqueBold;
 src: url(BrandonGrotesque/Brandon_bld.otf);
+}
+
+@font-face {
+font-family: AdobeCaslon;
+src: url(AdobeCaslon/ACaslonPro-Regular.otf);
+}
+
+@font-face {
+font-family: AdobeCaslonBold;
+src: url(AdobeCaslon/ACaslonPro-Bold.otf);
+}
+
+@font-face {
+font-family: AdobeCaslonItalic;
+src: url(AdobeCaslon/ACaslonPro-Italic.otf);
 }
